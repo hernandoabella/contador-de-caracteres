@@ -13,10 +13,15 @@
 </head>
 
 <body>
+
     <div class="container">
-        <button id="clear"><i class="fa-solid fa-trash"></i></button>
+        <div class="flex">
+            <div>Palabras: <span id="words"></span></div>
+            <div class="chars">Carácteres: <span id="char">0</span></div>
+            <button id="clear"><i class="fa-solid fa-trash"></i></button>
+        </div>
         <textarea type="text" id="cadena" placeholder="Escribe algo...✏️"></textarea>
-        <div class="chars">Número de carácteres: <span id="salida">0</span></div>
+        
     </div>
 
     <script src="./script.js"></script>
