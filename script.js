@@ -2,7 +2,7 @@ let cadena = document.getElementById("cadena");
 
 let imprimir = (mensaje) => {
     let salida = document.getElementById("salida");
-    salida.innerHTML = "El largo de caracteres es: " + "<b>" + mensaje + "</b>";
+    salida.innerHTML = "<b>" + mensaje + "</b>";
 }
 
 cadena.addEventListener("keyup", e =>{
