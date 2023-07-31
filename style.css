@@ -1,43 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+* {
   font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
   font-size: 1.3em;
-  background: #A770EF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
+  background: #A770EF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.contenedor{
+.container {
   padding: 20px;
   border-radius: 25px;
-  width: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-#cadena{
-  padding: 10px;
+#cadena {
+  padding: 20px;
   width: 100%;
-  height: 200px;
-  border-radius: 5px;
-  margin-right: 10px;
+  border-radius: 12px;
   font-weight: bold;
   resize: none;
-  color: #000;
+  color: #333;
   font-size: 1.1em;
 }
 
-#salida{
-  margin: 20px;
-  text-align: center;
+#salida {
   font-size: 1.4em;
-  color: #fff;
+  padding: 20px 0px 0px 0px;
 }
