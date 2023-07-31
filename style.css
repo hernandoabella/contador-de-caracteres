@@ -47,13 +47,18 @@ textarea::-webkit-input-placeholder {
 
 #clear {
   color: #fff;
-  background: #F31559;
+  background: #460147;
   padding: 10px;
   border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
   border: none;
   outline: none;
+  transition: .3s;
+}
+
+#clear:hover {
+  background: #F31559;
 }
 
 .flex {
